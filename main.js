@@ -100,3 +100,16 @@ function prevSlides() {
 }
 
 showSlides(currentIndexs);
+
+function toggleFAQ(element) {
+  let answer = element.nextElementSibling;
+  let icon = element.querySelector(".toggle-icon img");
+
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+    icon.src = "./img/minus-Icon.png";
+  } else {
+    answer.style.display = "none";
+    icon.src = "./img/plus-Icon.png";
+  }
+}

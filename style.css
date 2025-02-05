@@ -801,3 +801,64 @@ nav {
   border-radius: 15px;
   background-color: white;
 }
+
+.Seven-Full {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.seven-one h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+.seven-one span {
+  color: #a554e6;
+}
+
+.seven-one {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #102939;
+  text-align: center;
+  
+}
+.seven-two-one {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.seven-two-one h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.seven-two {
+  border: 1px solid white;
+  padding: 0px 30px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: white;
+}
+.seven-two-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.seven-two-one span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.seven-two p {
+  display: none;
+  margin-top: 10px;
+  padding: 0px 30px;
+  
+}
