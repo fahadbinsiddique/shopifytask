@@ -691,3 +691,113 @@ nav {
   border: #b564f7;
   color: white;
 }
+
+.sixMain {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.sixOneHeading h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0px;
+  justify-content: center;
+}
+.sixOneHeading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0px;
+  text-align: center;
+  color: #a554e6;
+}
+.sixThree {
+  border: 1px solid skyblue;
+  width: 46%;
+  border-radius: 15px;
+  background-color: white;
+}
+.sixThreeOne {
+  padding: 0px 80px;
+}
+
+.sixTwoImg {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.sixTwoImg div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sixThreeTwo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.sixThreeTwo h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.sixThreeTwo p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.sixThreeThree {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.sixThreeThree h4 {
+  font-size: 18px;
+}
+.sixThreeThree h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sixThreeFour {
+  display: flex;
+  justify-content: space-between;
+}
+.sixThreeText-q2 {
+  display: flex;
+  justify-content: right;
+}
+
+.sixThreeText p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344054;
+  margin: 0;
+}
+
+.sixText {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.sixFour {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.sixFourOne {
+  border: 1px solid skyblue;
+  width: 31%;
+  border-radius: 15px;
+  background-color: white;
+}
