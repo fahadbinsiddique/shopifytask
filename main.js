@@ -54,8 +54,6 @@ function prevSlide() {
 
 showSlide(currentIndex);
 
-
-
 let currentIndexs = 0;
 const slidess = document.querySelectorAll(".slide-list-4");
 const totalSlidess = slidess.length;

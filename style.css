@@ -96,7 +96,7 @@ nav {
 }
 
 .button button:hover {
-  background-color: rgba(128, 0, 128, 0.1);
+  background-color: rgba(61, 31, 61, 0.1);
 }
 
 .heromaindiv {
@@ -404,7 +404,7 @@ nav {
   transition: 0.3s;
 }
 
-.custom-checkbox input:checked+.checkmark::after {
+.custom-checkbox input:checked + .checkmark::after {
   content: "✔";
   font-size: 16px;
   color: white;
@@ -414,7 +414,7 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-.custom-checkbox input:checked+.checkmark {
+.custom-checkbox input:checked + .checkmark {
   background-color: #6200ea;
   border-color: #6200ea;
 }
@@ -517,16 +517,14 @@ nav {
 .section-3 {
   max-width: 90%;
   margin: 0 auto;
-  padding-bottom:60px ;
-  
+  padding-bottom: 60px;
 }
 
 .section-4 {
   max-width: 90%;
   margin: 0 auto;
-  
 }
- .section-4-one{
+.section-4-one {
   padding-bottom: 60px;
 }
 .section-3-heading h1 {
@@ -642,6 +640,54 @@ nav {
   right: 10px;
 }
 
-button:hover {
+.section-3-slide button:hover {
   background: rgba(0, 0, 0, 0.8);
+}
+
+.secFive {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.sectionFive {
+  background-color: white;
+  padding: 50px 0;
+}
+.sectionFive .secFiveOne {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.secFiveTwo {
+  display: flex;
+  gap: 50px;
+}
+.secFiveTwo img {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.secFiveTwo h1 {
+  font-family: "Raleway", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.secFiveTwo p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #344054;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+.secFiveTwo button {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: linear-gradient(360deg, #6a2f9b 40%, #b564f7);
+  border: #b564f7;
+  color: white;
 }
