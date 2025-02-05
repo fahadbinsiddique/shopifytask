@@ -327,7 +327,6 @@ nav {
 }
 
 .all-inclusive-content-des h1 {
-  color: #101828;
   font-family: "Poppins", serif;
   font-size: 30px;
 }
@@ -405,7 +404,7 @@ nav {
   transition: 0.3s;
 }
 
-.custom-checkbox input:checked+.checkmark::after {
+.custom-checkbox input:checked + .checkmark::after {
   content: "✔";
   font-size: 16px;
   color: white;
@@ -415,7 +414,86 @@ nav {
   transform: translate(-50%, -50%);
 }
 
-.custom-checkbox input:checked+.checkmark {
+.custom-checkbox input:checked + .checkmark {
   background-color: #6200ea;
   border-color: #6200ea;
+}
+.section2 {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.section2 h1 {
+  font-size: 48px;
+  font-family: "Raleway", serif;
+  text-align: center;
+}
+.section2 h1 span {
+  color: #a554e6;
+}
+.section2 .purple-tick {
+  display: flex;
+  align-items: center;
+}
+
+.section2-div2-inner {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.section2-div2-inner h3 {
+  margin: 0px;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.section2-div2 {
+  border-radius: 20px;
+  background-color: white;
+  width: 450px;
+  height: 470px;
+  /* justify-content: center; */
+  justify-items: center;
+  padding: 10px;
+}
+.section2-div2 img {
+  display: flex;
+  align-items: center;
+}
+.section2-div2 p {
+  font-size: 16px;
+  font-family: "Poppins", serif;
+
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.section2-div2-main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.section2Div3 h4 {
+  font-family: "Poppins", serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.section2Div3 p {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344054;
+}
+.section2Div3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.section2Div3-innerDiv {
+  border: 1px solid #d0d5dd;
+  width: 450px;
+  border-radius: 20px;
+  padding: 0 20px;
 }
