@@ -1,3 +1,18 @@
+function toggleMenu() {
+  const menu = document.querySelector(".list");
+  const menuIcon = document.querySelector(".menu-toggle i");
+
+  menu.classList.toggle("show");
+
+  if (menu.classList.contains("show")) {
+    menuIcon.classList.remove("fa-bars");
+    menuIcon.classList.add("fa-times");
+  } else {
+    menuIcon.classList.remove("fa-times");
+    menuIcon.classList.add("fa-bars");
+  }
+}
+
 document.querySelectorAll(".custom-checkbox input").forEach((checkbox) => {
   checkbox.addEventListener("change", function () {
     let container = this.closest(".short-form-video");
