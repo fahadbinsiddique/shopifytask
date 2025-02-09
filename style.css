@@ -297,20 +297,27 @@ nav {
     padding: 10px 20px;
   }
 
+  .clients-logo-banner {
+    height: 100% !important;
+  }
   .logo-main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 0px !important;
   }
   .logo-main-fifty {
-    text-align: center;
+    flex-direction: column;
+    gap: 0px !important;
   }
   .logo-main-fifty img {
-    display: none;
+    transform: rotate(90deg);
   }
   .logo-main-right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
   }
 }
 
@@ -348,20 +355,27 @@ nav {
     padding-bottom: 70px;
   }
 
+  .clients-logo-banner {
+    height: 100% !important;
+  }
   .logo-main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 0px !important;
   }
   .logo-main-fifty {
-    text-align: center;
+    flex-direction: column;
+    gap: 0px !important;
   }
   .logo-main-fifty img {
-    display: none;
+    transform: rotate(90deg);
   }
   .logo-main-right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
   }
 }
 
@@ -391,23 +405,19 @@ nav {
 
 .logo-main {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
 }
 .logo-main-fifty {
   text-align: center;
 }
-.logo-main-fifty img {
-  display: none;
-}
+
 .logo-main-right {
   display: flex;
-  flex-direction: column;
 }
 
 .clients-logo-banner {
   background-color: white;
-  height: 100%;
+  height: 250px;
   display: flex;
   align-items: center;
 }
@@ -457,8 +467,8 @@ nav {
   .all-inclusive-content {
     flex-direction: column;
   }
+
   .all-inclusive-content-des-img-2 {
-    justify-content: center;
     transform: rotate(90deg);
   }
 
@@ -509,6 +519,7 @@ nav {
 @media (max-width: 786px) {
   .all-inclusive-content {
     flex-direction: column !important;
+    gap: 0px !important;
   }
   .all-inclusive-content-des-img-2 {
     justify-content: center;
@@ -774,6 +785,55 @@ nav {
 .custom-checkbox input:checked + .checkmark {
   background-color: #6200ea;
   border-color: #6200ea;
+}
+
+@media (max-width: 786px) {
+  .section2-div2-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px !important;
+    align-items: center;
+  }
+
+  .section2Div3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+  .section2Div3-innerDiv {
+    border: 1px solid #d0d5dd;
+    width: 100% !important;
+    border-radius: 20px;
+    padding: 0px 20px !important;
+  }
+}
+@media (max-width: 480px) {
+  .section2-div2-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px !important;
+    align-items: center;
+  }
+
+  .section2Div3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+  }
+  .section2Div3-innerDiv {
+    border: 1px solid #d0d5dd;
+    width: 100% !important;
+    border-radius: 20px;
+    padding: 0px 20px !important;
+  }
 }
 
 .section2 {
