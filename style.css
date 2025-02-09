@@ -13,14 +13,6 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 1200px) {
-  .menu-toggle {
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 30px;
-  }
-}
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -28,78 +20,70 @@ body {
     right: 20px;
     top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .menu-toggle {
-    display: block;
+
+  .list {
+    opacity: 0;
+    transform: translateX(-20px);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
     position: absolute;
-    right: 20px;
-    top: 30px;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
-}
 
-.list {
-  opacity: 0;
-  transform: translateX(-20px);
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 100%;
-  background: white;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
+  .list ul {
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+  }
 
-.list ul {
-  flex-direction: column;
-  background: white;
-  position: absolute;
-  top: 150px;
-  left: 0;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out;
-}
+  .list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
 
-.list ul li {
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
+  .list.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
 
-.list.show {
-  opacity: 1;
-  transform: translateY(0);
-  visibility: visible;
-}
+  .button {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-.button {
-  display: flex;
-  gap: 10px;
-  font-size: 10px;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
+  .button .log {
+    padding: 10px 15px;
+    margin-left: 0px;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .button .book {
+    padding: 10px 15px;
+    margin-left: 0px;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+  }
 
-.button .log {
-  padding: 10px 15px;
-  margin-left: 0px;
-  color: black;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 16px;
-}
-.button .book {
-  padding: 10px 15px;
-  margin-left: 0px;
-  color: black;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 16px;
-}
-
-.list ul li ul li {
-  display: none;
+  .list ul li ul li {
+    display: none;
+  }
 }
 
 nav {
