@@ -1083,6 +1083,23 @@ nav {
   background: rgba(0, 0, 0, 0.8);
 }
 
+@media (max-width: 786px) {
+  .secFiveTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .secFiveTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .secFiveTwo img {
+    width: 100%;
+  }
+}
+
 .secFive {
   padding-top: 100px;
   padding-bottom: 120px;
