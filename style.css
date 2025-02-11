@@ -1148,6 +1148,85 @@ nav {
   color: white;
 }
 
+@media (max-width: 786px) {
+  .sixOneHeading h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sixTwoImg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sixOneHeading-lastimg img {
+    display: none;
+  }
+
+  .sixThreeTwo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .sixText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 15px;
+  }
+  .sixThree {
+    border: 1px solid skyblue;
+    width: 100% !important;
+    border-radius: 15px;
+    background-color: white;
+  }
+
+  .sixThreeTwo h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .sixThreeTwo p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px !important;
+    font-weight: 400;
+    margin-top: 0;
+  }
+  .sixThreeThree h4 {
+    font-size: 14px !important;
+  }
+  .sixThreeOne {
+    padding: 0px 20px !important;
+  }
+  .sixThreeText p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px !important;
+    color: #344054;
+    margin: 0;
+  }
+
+  .sixFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    gap: 15px;
+  }
+  .sixFourOne {
+    border: 1px solid skyblue;
+    width: 100% !important;
+    border-radius: 15px;
+    background-color: white;
+  }
+}
+
 .sixMain {
   max-width: 90%;
   margin: 0 auto;
